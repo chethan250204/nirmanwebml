@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    A[Data Source (CSV / PostgreSQL)] --> B[Feature Engineering & Preprocessing]
+    A[Data Source ] --> B[Feature Engineering & Preprocessing]
     B --> C[Train/Test Split]
     C --> D[Model Training<br/>(RandomForest, GradientBoosting, LogisticRegression)]
     D --> E[Cross-Validation & Hyperparameter Tuning]
