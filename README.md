@@ -1,4 +1,3 @@
-```mermaid
 flowchart TD
     A[Data Source ] --> B[Feature Engineering & Preprocessing]
     B --> C[Train/Test Split]
@@ -12,4 +11,3 @@ flowchart TD
     J --> K[Model Predicts Outcome]
     K --> L[Return Prediction & Probability (JSON)]
     L --> M[Testing Scripts Validate Predictions]
-```
