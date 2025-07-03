@@ -10,5 +10,5 @@ flowchart TD
     H --> I[API Receives Prediction Request]
     I --> J[Preprocess Input Features]
     J --> K[Model Predicts Outcome]
-    K --> L[Return Prediction & Probability (JSON)]
+    K --> L[Return Prediction & Probability]
     L --> M[Testing Scripts Validate Predictions]
